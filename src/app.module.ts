@@ -8,6 +8,7 @@ import { CourseCardModule } from './courses/courseCard.module';
 import { LanguageModule } from "./language/language.module";
 import { CourseCategoryModule } from "./course-category/course-category.module";
 import { MediaModule } from "./media/media.module";
+import { EventsModule } from "./events/events.module";
 
 @Module({
     imports: [
@@ -29,6 +30,7 @@ import { MediaModule } from "./media/media.module";
         LanguageModule,
         CourseCategoryModule,
         MediaModule,
+        EventsModule,
     ],
     controllers: [AppController],
     providers: [AppService],

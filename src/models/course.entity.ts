@@ -27,7 +27,7 @@ export class CourseCard {
     @Column()
     public title: string;
 
-    @Column()
+    @Column({ nullable: true })
     public imageUrl: string;
 
     @Column()
@@ -61,6 +61,9 @@ export class CourseCard {
     // how much discount the link gives
     @Column()
     public discount: number;
+
+    @Column({ nullable: true })
+    public imageName: string;
 
     public constructor(card?: Partial<CourseCard>) {
         if (card) {
