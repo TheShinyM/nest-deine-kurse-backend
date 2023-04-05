@@ -1,5 +1,5 @@
-import { User } from 'src/auth/users.entity';
-import { CourseCategory } from 'src/models/courseCategory.entity';
+import { User } from "src/auth/users.entity";
+import { CourseCategory } from "src/models/courseCategory.entity";
 import { Language } from "src/models/language.entity";
 
 export interface CreateCourseDTO {
